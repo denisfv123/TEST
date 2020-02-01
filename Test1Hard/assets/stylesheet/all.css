@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.form__input {
+  font-size: medium;
+  padding: 1.5em 2em;
+  border-radius: 20px;
+  border: 1px double black;
+  display: inline-block;
+  outline : none;
+}
+.butt {
+  font-size: 1em;
+  margin-left: 2em;
+  padding: 1.5em 2em;
+  border-radius: 30px;
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  outline : none;
+}
+.day-week {
+    display: flex;
+    background-color: #f4f4f4;
+    width: 7em;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.week {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.day-week-weather {
+    display: flex;
+    background-color: #f4f4f4;
+    width: 7em;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.pic {
+    color: #D3D3D3;
+    text-align: center;
+}
+.search {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.day {
+    text-align: center;
+}
